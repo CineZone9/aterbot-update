@@ -4,7 +4,7 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const config = {
   host: process.env.MC_HOST || 'EriAhl-XWSQ.aternos.me',
   port: parseInt(process.env.MC_PORT) || 40612,
-  username: process.env.MC_USERNAME || 'RandomBot',
+  username: process.env.MC_USERNAME || 'PlayerAI',
   password: process.env.MC_PASSWORD || undefined,
   version: process.env.MC_VERSION || false,
   auth: process.env.MC_AUTH || 'offline',
